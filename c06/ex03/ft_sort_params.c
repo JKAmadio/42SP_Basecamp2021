@@ -6,11 +6,23 @@
 /*   By: jkahvedj <jkahvedj@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/15 21:23:49 by jkahvedj          #+#    #+#             */
-/*   Updated: 2021/04/16 14:20:57 by jkahvedj         ###   ########.fr       */
+/*   Updated: 2021/04/18 19:12:54 by jkahvedj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+/*
+
+ex03    A questão aqui é sobre um programa, você deve, portanto, ter uma 
+        função main no seu arquivo .c.
+
+        Escreva um programa que mostre os argumentos recebidos na 
+        linha de comando classificados por ordem ascii.
+
+        Você deve mostrar todos os argumentos, menos argv[0].
+
+        Um argumento por linha.
+*/
+
 #include <unistd.h>
 
 int		ft_strcmp(char *s1, char *s2);

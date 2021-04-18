@@ -6,9 +6,23 @@
 /*   By: jkahvedj <jkahvedj@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/15 03:29:19 by jkahvedj          #+#    #+#             */
-/*   Updated: 2021/04/16 14:19:44 by jkahvedj         ###   ########.fr       */
+/*   Updated: 2021/04/18 19:06:50 by jkahvedj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+
+ex00    A questão aqui é sobre um programa, você deve, portanto, ter 
+        uma função main no seu arquivo .c.
+
+        Escreva um programa que mostre o nome do programa.
+
+        Exemplo :
+
+                $>./a.out
+                ./a.out
+                $>
+*/
 
 #include <unistd.h>
 
@@ -18,10 +32,8 @@ int	main(int argc, char *argv[])
 {
 	char	*programa;
 	int		len_programa;
-	int		argumentos;
 
-	argumentos = argc;
-	programa = argv[0];
+	programa = argv[argc - 1];
 	len_programa = ft_strlen(programa);
 	write(1, programa, len_programa);
 	write(1, "\n", 1);

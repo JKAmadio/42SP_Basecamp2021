@@ -6,9 +6,22 @@
 /*   By: jkahvedj <jkahvedj@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/15 04:08:45 by jkahvedj          #+#    #+#             */
-/*   Updated: 2021/04/15 21:25:45 by jkahvedj         ###   ########.fr       */
+/*   Updated: 2021/04/18 19:10:52 by jkahvedj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+
+ex02    A questão aqui é sobre um programa, você deve, portanto, ter uma 
+        função main no seu arquivo arquivo .c.
+
+        Escreva um programa que mostre os argumentos recebidos na 
+        linha de comando.
+
+        Um por linha na ordem inversa da linha de comando.
+
+        Você deve mostrar todos os argumentos, menos argv[0].
+*/
 
 #include <unistd.h>
 
