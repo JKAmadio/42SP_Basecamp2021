@@ -6,9 +6,19 @@
 /*   By: jkahvedj <jkahvedj@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/14 15:21:15 by jkahvedj          #+#    #+#             */
-/*   Updated: 2021/04/14 20:24:37 by jkahvedj         ###   ########.fr       */
+/*   Updated: 2021/04/18 18:53:04 by jkahvedj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+
+ex05    Escreva uma função que retorne a raiz quadrada inteira de um número 
+        se ela existir, e 0 se a raiz quadrada não for inteira.
+
+        Ela deverá ser prototipada da seguinte maneira:
+
+                int ft_sqrt(int nb);
+*/
 
 int	ft_sqrt(int nb)
 {
@@ -24,4 +34,12 @@ int	ft_sqrt(int nb)
 		i++;
 	}
 	return (0);
+}
+
+#include <stdio.h>
+int main(void)
+{
+    for (int i = -5; i < 150; i++)
+        printf("a raiz quadrada de %i eh %i\n", i, ft_sqrt(i));
+    return (0);
 }

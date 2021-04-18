@@ -6,9 +6,19 @@
 /*   By: jkahvedj <jkahvedj@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/15 02:09:26 by jkahvedj          #+#    #+#             */
-/*   Updated: 2021/04/15 20:58:22 by jkahvedj         ###   ########.fr       */
+/*   Updated: 2021/04/18 18:59:22 by jkahvedj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+
+ex07    Escreva uma função que retorne o número primo imediatamente 
+        superior ou igual ao número passado como parâmetro.
+
+        Ela deverá ser prototipada da seguinte maneira:
+
+            int ft_find_next_prime(int nb);
+*/   
 
 int ft_is_prime(int nb);
 
@@ -43,3 +53,18 @@ int	ft_is_prime(int nb)
 	}
 	return (1);
 }
+
+#include <stdio.h>
+
+int main(void)
+{
+    for (int i = -3; i < 150; i++)
+        printf("O primo após %i eh %i\n", i, ft_find_next_prime(i));
+    return(0);
+}
+
+
+
+
+
+
