@@ -6,9 +6,19 @@
 /*   By: jkahvedj <jkahvedj@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/12 23:02:06 by jkahvedj          #+#    #+#             */
-/*   Updated: 2021/04/13 12:24:47 by jkahvedj         ###   ########.fr       */
+/*   Updated: 2021/04/18 16:54:48 by jkahvedj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+
+ex04    Reproduzir de forma idêntica o funcionamento da função strstr 
+        (man strstr).
+
+        Ela deverá ser prototipada da seguinte maneira:
+
+            char    *ft_strstr(char *str, char *to_find);
+*/
 
 int		ft_strlen(char *str);
 
@@ -49,4 +59,24 @@ int		ft_strlen(char *str)
 	while (str[len] != '\0')
 		len++;
 	return (len);
+}
+
+#include <stdio.h>
+#include <string.h>
+
+int     main(void)
+{
+    char str1[] = "Hello wonderful world";
+    char str2[] = "wond";
+    char str3[] = "earth";
+    char str4[] = "";
+
+    printf("ft_strstr: %s\n", ft_strstr(str1, str2));
+    printf("   strstr: %s\n", strstr(str1, str2));
+    printf("ft_strstr: %s\n", ft_strstr(str1, str3));
+    printf("   strstr: %s\n", strstr(str1, str3));
+    printf("ft_strstr: %s\n", ft_strstr(str1, str4));
+    printf("   strstr: %s\n", strstr(str1, str4));
+
+    return (0);
 }
