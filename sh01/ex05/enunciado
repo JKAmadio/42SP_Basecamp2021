@@ -1,0 +1,11 @@
+/*
+**	Crie um arquivo contendo somente "42"e NADA mais.
+**	
+**	Ele deve ser nomeado:
+**		"\?$*'MaRViN'*$?\"
+**
+**	Exemplo:
+**		$>ls -lRa *MaRV* | cat -e
+**		-rw---xr-- 1 75355 32015 2 Oct 2 12:21 "\?$*'MaRViN'*$?\"$
+**		$>
+*/

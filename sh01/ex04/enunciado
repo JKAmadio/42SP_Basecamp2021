@@ -1,0 +1,10 @@
+/*
+**	Escreva uma linha de comando que mostre os endereços MAC de sua máquina,
+**	respeitando o formato abaixo.
+**
+**		>$ ./MAC.sh | cat -e
+**		f2:5b:44:60:f5:aa$
+**		8a:ec:c7:ac:30:81$
+**		ca:17:6b:da:36:fc$
+**		02:42:0a:02:03:0a$
+*/

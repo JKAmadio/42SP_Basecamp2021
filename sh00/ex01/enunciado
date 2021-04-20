@@ -1,0 +1,16 @@
+/*
+**	Crie o arquivo testShell00 em sua pasta de entrega.
+**	Você deve garantir que:
+**		%> ls -l
+**		total XX
+**		-r--r-xr-x 1 XX XX 40 Jun 1 23:42 testShell00
+**		%>
+**	Em relação às horas, será tolerado que o ano seja exibido se a data do 
+**	exercício (1o de junho) for de seis meses antes ou mais antiga.
+**	Após resolver o exercício, execute o comando tar -cf testShell00.tar 
+**	testShell00 para criar o arquivo que será entregue.
+**
+**	Os XX nãp serão considerados
+**
+**	Um ano é uma resposta aceita em vez de um horário.
+*/

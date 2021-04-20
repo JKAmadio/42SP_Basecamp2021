@@ -1,0 +1,25 @@
+/*
+**	Crie todos estes arquivos e pastas. Faça o que for necessário para que a 
+**	visualização de um ls -l em sua pasta fique da seguinte forma:
+**		
+**		%> ls -l
+**		total XX
+**		drwx--xr-x 2 XX XX XX Jun 1 20:47 test0
+**		-rwx--xr-- 1 XX XX  4 Jun 1 21:46 test1
+**		dr-x---r-- 2 XX XX XX Jun 1 22:45 test2
+**		-r-----r-- 2 XX XX  1 Jun 1 23:44 test3
+**		-rw-r----x 1 XX XX  2 Jun 1 23:43 test4
+**		-r-----r-- 2 XX XX  1 Jun 1 23:44 test5
+**		lXXXXXXXXX 1 XX XX  5 Jun 1 22:20 test6 -> test0
+**		%>
+**
+**	Em relação às horas, será tolerado que o ano apareça se a data do 
+**	exercício (1o de junho) for de seis meses antes ou mais antiga.
+**
+**	Após resolver o exercício, execute o comando tar -cf exo2.tar * 
+**	para criar o arquivo que será entregue.
+**
+**	Os XX não serão considerados.
+**
+**	Um ano é uma resposta aceita em vez de um horário
+*/

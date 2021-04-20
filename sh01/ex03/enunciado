@@ -1,0 +1,11 @@
+/*
+**	Escreva uma linha de comando que mostre o número de arquivos regulares 
+**	e de pastas dentro da pasta atual e todas as suas subpastas, incluindo 
+**	o "." da pasta inicial.
+**
+**	Exemplo de saída:
+**
+**		$>./count_files.sh | cat -e
+**		42$
+**		$>
+*/

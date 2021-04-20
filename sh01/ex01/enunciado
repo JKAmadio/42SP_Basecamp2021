@@ -1,0 +1,18 @@
+/*
+**	Escreva uma linha de comando que determine e mostre a lista de grupos 
+**	dos quais o login especificado na variável de ambiente FT_USER é membro, 
+**	separando-os por vírgulas sem espaços.
+**
+**	Exemplos:
+**		com FT_USER=student, o resultado é "student,:,student,staff,main,
+**		basecamp,fortytwo"(sem aspas)
+**
+**			$>./print_groups.sh
+**			student,:,student,staff,main,basecamp,fortytwo$>
+**
+**		com FT_USER=staff, o resultado é "staff,:,staff,god,main,bocal"
+**		(sem aspas)
+**		
+**			$>./print_groups.sh
+**			staff,:,staff,god,main,bocal$>
+*/
